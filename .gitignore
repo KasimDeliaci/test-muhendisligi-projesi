@@ -3,5 +3,6 @@ target/
 .vscode/
 *.iml
 .DS_Store
+outputs/
 ders-materyal/
 test-muh-proje.pdf

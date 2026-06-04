@@ -83,6 +83,25 @@ Belirli bir test sinifini calistirmak icin:
 mvn -Dtest=BookingCrudRegressionTest test
 ```
 
+Tek bir adimi gostermek icin (ornek: sadece DELETE):
+
+```bash
+mvn -Dtest=BookingCrudRegressionTest#deleteBookingShouldRemoveBooking test
+```
+
+Diger ornekler:
+
+```bash
+mvn -Dtest=BookingCrudRegressionTest#authShouldReturnValidToken test
+mvn -Dtest=BookingCrudRegressionTest#createBookingShouldReturnBookingWithExpectedFields test
+mvn -Dtest=BookingCrudRegressionTest#getBookingShouldReturnCreatedBooking test
+mvn -Dtest=BookingCrudRegressionTest#patchBookingShouldUpdateSelectedFields test
+mvn -Dtest=BookingCrudRegressionTest#bookingCrudFlowShouldWorkSuccessfully test
+mvn -Dtest=HealthCheckTest#pingShouldReturnCreatedStatus test
+```
+
+Her adim testi kendi on kosulunu kurar (ornegin DELETE testi once booking olusturur ve token alir), bu yuzden tek basina calistirilabilir. Tam CRUD akisi icin `bookingCrudFlowShouldWorkSuccessfully` testini kullanin.
+
 ## Kullanilan Teknolojiler
 
 - Java 17

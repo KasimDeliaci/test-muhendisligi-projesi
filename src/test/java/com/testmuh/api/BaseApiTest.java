@@ -1,6 +1,9 @@
 package com.testmuh.api;
 
 import io.restassured.RestAssured;
+import io.restassured.filter.log.LogDetail;
+import io.restassured.filter.log.RequestLoggingFilter;
+import io.restassured.filter.log.ResponseLoggingFilter;
 import io.restassured.specification.RequestSpecification;
 import org.junit.jupiter.api.BeforeAll;
 
@@ -18,7 +21,9 @@ class BaseApiTest {
     @BeforeAll
     static void setUpBaseUri() {
         RestAssured.baseURI = "https://restful-booker.herokuapp.com";
-        RestAssured.enableLoggingOfRequestAndResponseIfValidationFails();
+        RestAssured.filters(
+                new RequestLoggingFilter(LogDetail.ALL),
+                new ResponseLoggingFilter(LogDetail.ALL));
     }
 
     protected RequestSpecification jsonRequest() {
