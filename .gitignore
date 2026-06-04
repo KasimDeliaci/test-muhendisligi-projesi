@@ -3,6 +3,7 @@ target/
 .vscode/
 *.iml
 .DS_Store
+.venv-pdf/
 outputs/
 sunum/
 ders-materyal/
