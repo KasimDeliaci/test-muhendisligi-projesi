@@ -4,5 +4,6 @@ target/
 *.iml
 .DS_Store
 outputs/
+sunum/
 ders-materyal/
 test-muh-proje.pdf
