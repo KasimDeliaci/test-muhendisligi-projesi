@@ -2,8 +2,8 @@
 
 ## Öğrenci ve Sunum Bilgisi
 
-**Öğrenci:** Kasım Deliacı  
-**Öğrenci No:** 21360859021  
+**Öğrenci:** Kasım Deliacı | Bursa Teknik Üniversitesi
+**Öğrenci No:** 21360859021
 **Ders:** Yazılım Test Mühendisliği
 
 Bu proje, Yazılım Test Mühendisliği dersi kapsamında hazırlanmıştır. Projenin kod tarafında Restful Booker API üzerinde otomatik regresyon testleri bulunmaktadır.
