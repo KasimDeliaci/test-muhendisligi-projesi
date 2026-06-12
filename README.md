@@ -2,7 +2,7 @@
 
 ## Öğrenci ve Sunum Bilgisi
 
-**Öğrenci:** Kasım Deliacı | Bursa Teknik Üniversitesi
+**Öğrenci:** Kasım Deliacı-Bursa Teknik Üniversitesi
 **Öğrenci No:** 21360859021
 **Ders:** Yazılım Test Mühendisliği
 
