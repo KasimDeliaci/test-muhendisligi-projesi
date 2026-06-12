@@ -2,8 +2,9 @@
 
 ## Öğrenci ve Sunum Bilgisi
 
-**Öğrenci:** Kasım Deliacı-Bursa Teknik Üniversitesi
-**Öğrenci No:** 21360859021
+**Öğrenci:** Kasım Deliacı  
+**Üniversite:** Bursa Teknik Üniversitesi  
+**Öğrenci No:** 21360859021  
 **Ders:** Yazılım Test Mühendisliği
 
 Bu proje, Yazılım Test Mühendisliği dersi kapsamında hazırlanmıştır. Projenin kod tarafında Restful Booker API üzerinde otomatik regresyon testleri bulunmaktadır.
@@ -16,7 +17,7 @@ Bu proje, Yazılım Test Mühendisliği dersi kapsamında Java, Maven, JUnit 5 v
 
 ## Test Edilen Servis
 
-Proje, public bir rezervasyon API'si olan Restful Booker uzerinde calisir:
+Proje, public bir rezervasyon API'si olan Restful Booker üzerinde çalışır:
 
 https://restful-booker.herokuapp.com
 
@@ -55,7 +56,7 @@ PATCH ve DELETE istekleri için auth gerekir. Token alma işlemi test içinde ot
 
 Kullanıcının manuel token almasına veya environment variable tanımlamasına gerek yoktur.
 
-## Proje Yapisi
+## Proje Yapısı
 
 ```text
 .
@@ -77,8 +78,8 @@ Kullanıcının manuel token almasına veya environment variable tanımlamasına
 
 ## Gereksinimler
 
-- Java 17 veya uzeri
-- Maven 3.9 veya uzeri
+- Java 17 veya üzeri
+- Maven 3.9 veya üzeri
 - İnternet bağlantısı
 
 ## Testleri Çalıştırma
