@@ -30,7 +30,7 @@ Projede aşağıdaki otomatik API regresyon testleri bulunur:
 - `GET /ping`
   - Servisin ayakta olduğu kontrol edilir.
   - Status code `201` kontrol edilir.
-  - Cevabın `2000 ms` altında döndüğü kontrol edilir.
+  - Cevabın `3000 ms` altında döndüğü kontrol edilir.
 
 - Booking CRUD akışı
   - `POST /auth` ile token otomatik alınır.

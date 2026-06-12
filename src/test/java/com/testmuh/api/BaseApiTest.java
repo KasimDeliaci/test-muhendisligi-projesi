@@ -16,7 +16,7 @@ import static io.restassured.http.ContentType.JSON;
 
 class BaseApiTest {
 
-    protected static final long MAX_RESPONSE_TIME_MS = 5000L;
+    protected static final long MAX_RESPONSE_TIME_MS = 3000L;
 
     @BeforeAll
     static void setUpBaseUri() {
